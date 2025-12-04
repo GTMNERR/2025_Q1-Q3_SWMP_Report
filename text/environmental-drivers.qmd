@@ -29,19 +29,19 @@ load(here('output','data', 'pc_wq.Rdata'))
 
 This section includes drivers of environmental patterns such as significant weather events (e.g., tropical cyclones, Nor'easters, large rainfall events), anomalies, and other local events with impact.
 
-## Tropical Cyclones
+<!-- ## Tropical Cyclones -->
 
-There was one tropical cyclone, Hurricane Milton, that had direct impacts in the GTM estuary during the Q4 reporting period. This brings the yearly total to three tropical cyclones:  Hurricane Debby, Hurricane Helene, and Hurricane Milton.
+<!-- There was one tropical cyclone, Hurricane Milton, that had direct impacts in the GTM estuary during the Q4 reporting period. This brings the yearly total to three tropical cyclones:  Hurricane Debby, Hurricane Helene, and Hurricane Milton. -->
 
-Northeast Florida felt the impacts of Hurricane Debby August 4-6, 2024, as Debby approached Steinhatchee, Florida as a Category 1 hurricane and moved across the state bringing heavy rain and strong winds. The area was impacted by another tropical cyclone, Hurricane Helene, in late September. Hurricane Helene made landfall in the Big Bend area of Florida as a Category 4 storm. Very strong winds and rain caused significant storm surges and flooding in Northeast Florida. The impacts of Hurricane Helene can be seen in our SWMP data from September 25–26, 2024; however, we did unfortunately experience intermittent battery and sensor malfunctions during the storm, leaving our data incomplete.
+<!-- Northeast Florida felt the impacts of Hurricane Debby August 4-6, 2024, as Debby approached Steinhatchee, Florida as a Category 1 hurricane and moved across the state bringing heavy rain and strong winds. The area was impacted by another tropical cyclone, Hurricane Helene, in late September. Hurricane Helene made landfall in the Big Bend area of Florida as a Category 4 storm. Very strong winds and rain caused significant storm surges and flooding in Northeast Florida. The impacts of Hurricane Helene can be seen in our SWMP data from September 25–26, 2024; however, we did unfortunately experience intermittent battery and sensor malfunctions during the storm, leaving our data incomplete. -->
 
-The third storm of the season, Hurricane Milton, impacted the area on October 9-10, 2024. The major hurricane made landfall near Siesta Key on Wednesday, October 9, 2024, as a Category 3 storm. St. Augustine and St. Johns County experienced strong winds, heavy rains, and flooding Wednesday evening into Thursday. The strongest winds recorded at the GTMNERR weather station in 2024 were during Hurricane Milton. The strong winds were predominately from the east and the maximum wind speed was 26.1 m/s (58.4 mph) (@fig-winds-monthly). Strong winds initially raised salinity at all stations (@fig-range-sal)at the onset of the storm, however; the rainfall during the storm drastically decreased salinity as it made its way to this estuary, which was especially pronounced at Pellicer Creek (@fig-range-sal-4).
+<!-- The third storm of the season, Hurricane Milton, impacted the area on October 9-10, 2024. The major hurricane made landfall near Siesta Key on Wednesday, October 9, 2024, as a Category 3 storm. St. Augustine and St. Johns County experienced strong winds, heavy rains, and flooding Wednesday evening into Thursday. The strongest winds recorded at the GTMNERR weather station in 2024 were during Hurricane Milton. The strong winds were predominately from the east and the maximum wind speed was 26.1 m/s (58.4 mph) (@fig-winds-monthly). Strong winds initially raised salinity at all stations (@fig-range-sal)at the onset of the storm, however; the rainfall during the storm drastically decreased salinity as it made its way to this estuary, which was especially pronounced at Pellicer Creek (@fig-range-sal-4). -->
 
 ## Nor'easters
 
 Typically, a Nor’easter is a storm along the East Coast of the United States with predominating winds from the northeast. These storms can last anywhere from a single day (24 hours) to several days or weeks. Callahan, Leathers, and Callahan @callahan2022 found that these events can produce surges just as severe as tropical cyclone events and occur more frequently. These events are often in the news associated with blizzards in the New England area of the US; however, their impacts to Northeast Florida, including higher water levels, heavy prevailing winds, precipitation, and reduced tidal exchange, can be significant.
 
-Using duration of wind directions between 0-100 degrees for greater than 24-hrs at the Pellicer Creek weather station, 13 “Nor’easter” events were identified in 2024 (@tbl-neer). Occasionally, localized wind directions result in values outside of this 0-100 degree window. The longest Nor'easter event occurred October 16th - October 19th, lasting 74.5 hours (@fig-winds-long). This table does not identify wind strength during these events, just the time frames in which winds were originating and prevailing in the 0-100 degree directions (@fig-medianwspd).
+<!-- Using duration of wind directions between 0-100 degrees for greater than 24-hrs at the Pellicer Creek weather station, “Nor’easter” events were identified in 2025 (@tbl-neer). Occasionally, localized wind directions result in values outside of this 0-100 degree window. The longest Nor'easter event occurred October 16th - October 19th, lasting 74.5 hours (@fig-winds-long). This table does not identify wind strength during these events, just the time frames in which winds were originating and prevailing in the 0-100 degree directions (@fig-medianwspd). -->
 
 <!-- Additionally, northeast Florida felt the impacts of an unofficially named winter storm, Finn in January. Strong winds were predicted for the event as well as heavy localized rain. Saint Johns County was considered in an Enhanced Risk area (level 3 of 5) with strong southerly winds and the potential for tornadoes. Local schools were released early and government offices closed early in preparation for the fast moving storm. The Pellicer Creek weather station recorded over 23 mm of rain (@fig-rainfall-3) and had a maximum wind speed of 28.9 mph (@fig-winds-january-2). -->
 
@@ -232,7 +232,7 @@ MET %>%
 ```{r}
 #| label: fig-winds-monthly
 #| echo: false
-#| fig.cap: Monthly wind speed and direction from the Pellicer Creek weather station for January - September 2025.
+#| fig.cap: Monthly wind speed and direction from the Pellicer Creek weather station for January - June 2025.
 #| fig.subcap:
 #|    - "Monthly wind speeds"
 #| layout-ncol: 1
@@ -401,21 +401,24 @@ plot_wind(MET_wind_q1, type = 'month', main = NULL)
 
 ```
 
-## King Tides
+<!-- ## King Tides -->
 
-“King Tides” are the highest predicted tides of the year and in Northeast Florida, these typically occur during the fall and winter months. For the city of St. Augustine, these events often bring nuisance flooding in coastal and low-lying areas. For the estuary, this typically also means reduced tidal exchange, a lack of low tide events, and more and prolonged flooding in the intertidal wetlands. The city reports these events on their [website](https://www.citystaug.com/1032/King-Tide-Chart-Prediction).
+<!-- “King Tides” are the highest predicted tides of the year and in Northeast Florida, these typically occur during the fall and winter months. For the city of St. Augustine, these events often bring nuisance flooding in coastal and low-lying areas. For the estuary, this typically also means reduced tidal exchange, a lack of low tide events, and more and prolonged flooding in the intertidal wetlands. The city reports these events on their [website](https://www.citystaug.com/1032/King-Tide-Chart-Prediction). -->
 
-Predicted King Tide events in 2025 are:
+<!-- Predicted King Tide events in 2025 are: -->
 
--   January 11th-14th
--   December 2nd-7th
+<!-- -   January 11th-14th -->
+<!-- -   September 16th-22nd -->
+<!-- -   October 14th-23rd -->
+<!-- -   November 13th-20th -->
+<!-- -   December 12th-17th -->
 
 
 <!-- The effects of the King Tides on daily average water depths were not observable in January, but there was a spike in water depths at all stations in February (@fig-range-depth).-->
 
 ### Water Depth
 
-Note that the water level data at Pellicer Creek only includes data from 2021–2024, which is due to this station switching from reporting depth to reporting level (NAVD88) in 2021  (@fig-range-depth-4).
+Note that the water level data at Pellicer Creek only includes data from 2021–2025, which is due to this station switching from reporting depth to reporting level (NAVD88) in 2021  (@fig-range-depth-4).
 
 ```{r}
 #| label: fig-range-depth
@@ -441,7 +444,7 @@ historical_daily_range(pc, param = 'clevel', target_yr = 2025)
 
 Extreme temperatures, both high and low, have drastic impacts on environmental processes. For black mangroves (*Avicennia germinans*), temperatures under -4°C have been found to reduce mangrove cover [@cavanaugh2013]. Extreme high temperatures are often health risks as they result in many [heat-related illnesses](https://www.weather.gov/safety/heat-illness).
 
-Overall, mean monthly temperatures in January, March, May, June, and November were higher than average (@fig-temp-anomalies), with November having the highest anomalies recorded in that month. February, April, September, and December of this year were cooler than average. . The highest average air temperature ever recorded at the GTMNERR weather station was recorded in June 2024 (@fig-dewpt).
+<!-- Overall, mean monthly temperatures in January, March, May, June, and November were higher than average (@fig-temp-anomalies), with November having the highest anomalies recorded in that month. February, April, September, and December of this year were cooler than average. . The highest average air temperature ever recorded at the GTMNERR weather station was recorded in June 2024 (@fig-dewpt). -->
 
 No freeze events were recorded this year.
 
