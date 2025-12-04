@@ -1,0 +1,38 @@
+{
+  "index.qmd": {
+    "index.html": "d3e44f85"
+  },
+  "text/background.qmd": {
+    "background.html": "67185e65"
+  },
+  "text/sites.qmd": {
+    "sites.html": "c1fa04c2"
+  },
+  "text/collection.qmd": {
+    "collection.html": "72fded97"
+  },
+  "text/qaqc.qmd": {
+    "qaqc.html": "a48e8492"
+  },
+  "text/results.qmd": {
+    "results.html": "cf8dec71"
+  },
+  "text/environmental.qmd": {
+    "environmental.html": "5162b13a"
+  },
+  "text/nut-indicators.qmd": {
+    "nut-indicators.html": "7e2a46ba"
+  },
+  "text/environmental-drivers.qmd": {
+    "environmental-drivers.html": "9a7d2d55"
+  },
+  "text/misc-bac.qmd": {
+    "misc-bac.html": "e11e08b3"
+  },
+  "text/maintenance.qmd": {
+    "maintenance.html": "90dda92b"
+  },
+  "text/a1-cmecs.qmd": {
+    "a1-cmecs.html": "217b699a"
+  }
+}
